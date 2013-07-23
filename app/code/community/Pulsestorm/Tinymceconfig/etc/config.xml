@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<modules>
+		<Pulsestorm_Tinymceconfig>
+			<version>0.1.0</version>
+		</Pulsestorm_Tinymceconfig>
+	</modules>
+	<global>
+		<models>
+			<pulsestorm_tinymceconfig>
+				<class>Pulsestorm_Tinymceconfig_Model</class>
+			</pulsestorm_tinymceconfig>
+		</models>
+		
+        <events>
+          <controller_action_layout_generate_blocks_after>
+            <observers>
+              <pulsestorm_tinymceconfigmore_blocks>
+                <type>singleton</type>
+                <class>pulsestorm_tinymceconfig/observer</class>
+                <method>addExtraBlocks</method>
+              </pulsestorm_tinymceconfigmore_blocks>
+            </observers>
+          </controller_action_layout_generate_blocks_after>
+        </events>
+		
+	</global>
+</config>
