@@ -11,7 +11,9 @@
 				<class>Pulsestorm_Tinymceconfig_Model</class>
 			</pulsestorm_tinymceconfig>
 		</models>
-		
+	</global>
+	
+	<adminhtml>
         <events>
           <controller_action_layout_generate_blocks_after>
             <observers>
@@ -22,7 +24,6 @@
               </pulsestorm_tinymceconfigmore_blocks>
             </observers>
           </controller_action_layout_generate_blocks_after>
-        </events>
-		
-	</global>
+        </events>	
+	</adminhtml>
 </config>
