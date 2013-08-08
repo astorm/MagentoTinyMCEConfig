@@ -19,3 +19,4 @@ Add your additional settings at the following location in the above file
     settings.extended_valid_elements = 'input[placeholder|accept|alt|checked|disabled|maxlength|name|readonly|size|src|type|value]';
     return settings;
 
+Original Article: [http://alanstorm.com/magento_html5_tinymce](http://alanstorm.com/magento_html5_tinymce)
